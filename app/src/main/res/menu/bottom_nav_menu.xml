@@ -22,7 +22,7 @@
         android:title="@string/title_subscription" />
 
     <item
-        android:id="@+id/navigation_account"
-        android:icon="@drawable/ic_navigation_account"
-        android:title="@string/title_account" />
+        android:id="@+id/navigation_library"
+        android:icon="@drawable/baseline_video_library_24"
+        android:title="@string/title_lib" />
 </menu>
