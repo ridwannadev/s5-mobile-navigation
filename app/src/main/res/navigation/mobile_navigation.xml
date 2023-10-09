@@ -18,12 +18,6 @@
         tools:layout="@layout/fragment_shorts" />
 
     <fragment
-        android:id="@+id/navigation_add"
-        android:name="lat.pam.navigationproject.ui.add"
-        android:label="@string/title_add"
-        tools:layout="@layout/fragment_add" />
-
-    <fragment
         android:id="@+id/navigation_subscription"
         android:name="lat.pam.navigationproject.ui.subscription"
         android:label="@string/title_subscription"
