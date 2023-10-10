@@ -14,7 +14,9 @@
         android:layout_alignParentLeft="true"
         android:layout_marginStart="-2dp"
         android:layout_marginLeft="-2dp"
-        android:src="@drawable/ic_youtubelogo" />
+        android:src="@drawable/ic_youtubelogo"
+        android:layout_centerVertical="true"
+        />
 
     <ImageView
         android:id="@+id/accountIconImageView"
