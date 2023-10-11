@@ -4,6 +4,7 @@
     android:id="@+id/app_bar"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
+    android:padding="@dimen/nav_margin"
     android:background="?android:attr/colorPrimary"
     android:backgroundTint="@color/white">
 
