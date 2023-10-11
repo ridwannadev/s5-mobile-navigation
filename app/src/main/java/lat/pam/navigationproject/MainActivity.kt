@@ -5,6 +5,7 @@ import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.Gravity
+import android.view.Menu
 import android.view.ViewGroup
 import android.view.Window
 import android.widget.ImageView
@@ -38,7 +39,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_home, R.id.navigation_short, R.id.navigation_add , R.id.navigation_subscription, R.id.navigation_library
             )
         )
-        setupActionBarWithNavController(navController, appBarConfiguration)
+
         navView.setupWithNavController(navController)
 
         navView.menu.getItem(2).setOnMenuItemClickListener {

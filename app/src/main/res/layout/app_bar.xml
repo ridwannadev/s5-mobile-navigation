@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_bar"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
     android:background="?android:attr/colorPrimary"
-    android:backgroundTint="@color/black">
+    android:backgroundTint="@color/white">
 
     <ImageView
         android:id="@+id/logoImageView"
@@ -12,9 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginStart="-2dp"
-        android:layout_marginLeft="-2dp"
-        android:src="@drawable/ic_youtubelogo"
+        android:src="@drawable/ic_youtubelogodark"
         android:layout_centerVertical="true"
         />
 
@@ -26,9 +25,8 @@
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@id/searchIconImageView"
         android:layout_toStartOf="@id/searchIconImageView"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        app:tint="@color/white" />
+        android:layout_marginEnd="@dimen/nav_margin"
+        android:layout_marginRight="@dimen/nav_margin"/>
 
     <!-- Ikon Pencarian -->
     <ImageView
@@ -39,9 +37,8 @@
         android:layout_centerVertical="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        app:tint="@color/white" />
+        android:layout_marginEnd="@dimen/nav_margin"
+        android:layout_marginRight="@dimen/nav_margin" />
 
     <!-- Ikon Notifikasi -->
     <ImageView
@@ -52,9 +49,8 @@
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@id/accountIconImageView"
         android:layout_toStartOf="@id/accountIconImageView"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        app:tint="@color/white" />
+        android:layout_marginEnd="@dimen/nav_margin"
+        android:layout_marginRight="@dimen/nav_margin" />
 
     <!-- Ikon Hubungkan Perangkat -->
     <ImageView
@@ -65,8 +61,7 @@
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@id/notificationsIconImageView"
         android:layout_toStartOf="@id/notificationsIconImageView"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        app:tint="@color/white" />
+        android:layout_marginEnd="@dimen/nav_margin"
+        android:layout_marginRight="@dimen/nav_margin" />
 
 </RelativeLayout>

@@ -7,4 +7,9 @@
     <string name="title_add">Add</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_apps">YouTube</string>
+    <string name="fragment_dashboard">fragnent dashboard</string>
+    <string name="fragment_library">fragment library</string>
+    <string name="fragment_short">fragment short</string>
+    <string name="fragment_subscription">fragment subscription</string>
 </resources>
