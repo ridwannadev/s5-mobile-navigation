@@ -5,5 +5,6 @@
     <item
         android:id="@+id/main_bar"
         app:showAsAction="always"
-        android:actionLayout="@layout/app_bar"/>
+        android:actionLayout="@layout/app_bar"
+        android:title="" />
 </menu>
