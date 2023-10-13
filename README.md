@@ -36,20 +36,18 @@ Kami sedang membuat projek clone tampilan aplikasi YouTube, tetapi hanya pada ba
 
 Berikut adalah penjelasan lebih rinci tentang projek kita:
 
-* **Tampilan home page** akan menampilkan video-video terbaru yang sedang populer. Navigasi Atas ada 5 icon yaitu logo youtube,icon menyambungkan ke TV,icon lonceng (pemberitahuan/notif),icon search,dan profil.Navigasi Bawah terdapat 5 icon diantaranya,icon beranda,short.icon add/upload video,subsciption,dan library
-* **Tampilan YouTube Short** akan menampilkan video-video pendek yang berdurasi maksimal 1 menit. Heading bar terdapat icon search,kamera dan titik 3
-* **Tampilan library** akan menampilkan daftar video yang telah ditonton pengguna.Navbar Atas ada 5 icon yaitu logo youtube,icon menyambungkan ke TV,icon lonceng (pemberitahuan/notif),icon search,dan profil.
-* **Tampilan add post** akan memungkinkan pengguna untuk mengunggah video baru.Fragment Add
+* **Tampilan home page**
+![Tampilan home page](app/src/img/fragment-homepage.png)
+ akan menampilkan video-video terbaru yang sedang populer. Navigasi Atas ada 5 icon yaitu logo youtube,icon menyambungkan ke TV,icon lonceng (pemberitahuan/notif),icon search,dan profil.Navigasi Bawah terdapat 5 icon diantaranya,icon beranda,short.icon add/upload video,subsciption,dan library
+* **Tampilan YouTube Short** ![Tampilan youtube short](app/src/img/fragment-short.png) akan menampilkan video-video pendek yang berdurasi maksimal 1 menit. Heading bar terdapat icon search,kamera dan titik 3
+* **Tampilan library**
+![Tampilan library](app/src/img/fragment-move-to-library.png)
+ akan menampilkan daftar video yang telah ditonton pengguna.Navbar Atas ada 5 icon yaitu logo youtube,icon menyambungkan ke TV,icon lonceng (pemberitahuan/notif),icon search,dan profil.
+* **Tampilan add post** 
+![Tampilan add post](app/src/img/fragment-add-post.png)
+akan memungkinkan pengguna untuk mengunggah video baru.Fragment Add
 * **Tampilan open app** akan membuka aplikasi YouTube asli.
 
-Saya menggunakan bahasa pemrograman Kotlin karena Kotlin adalah bahasa pemrograman yang modern dan efisien. Kotlin juga memiliki dukungan yang baik untuk pengembangan aplikasi Android.
+Kami menggunakan bahasa pemrograman Kotlin karena Kotlin adalah bahasa pemrograman yang modern dan efisien. Kotlin juga memiliki dukungan yang baik untuk pengembangan aplikasi Android.
 
-Semoga penjelasan saya dapat membantu Anda memahami projek saya.
-
-Berikut adalah contoh kata-kata yang dapat Anda gunakan untuk menjelaskan projek Anda:
-
-* Saya sedang membuat aplikasi clone YouTube dengan bar navigation yang sederhana.
-* Aplikasi ini memiliki fitur-fitur dasar seperti home page, YouTube Short, library, add post, dan open app.
-* Aplikasi ini menggunakan bahasa pemrograman Kotlin.
-
-Anda juga dapat menambahkan informasi tambahan tentang fitur-fitur khusus yang ada di aplikasi Anda. Misalnya, Anda dapat mengatakan bahwa aplikasi Anda menggunakan algoritma khusus untuk menampilkan video-video yang relevan dengan minat pengguna.
+Semoga penjelasan kami dapat membantu Anda memahami projek kami.
